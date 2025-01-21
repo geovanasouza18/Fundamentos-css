@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 63px;
+    color: rebeccapurple;
+    background-color: bisque;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 40%, 50%);
+    font-size: larger;
+}
