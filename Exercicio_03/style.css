@@ -1,0 +1,18 @@
+/*O elemento ocupa apenas o espaço necessário. Não inicia uma nova linha. Só separa na horizontal*/
+.inline{
+    display: inline;
+}
+
+/* Quebra de linha, ele ocupa a largura máxima do navegador. Preenche tanto na vertical quanto na horizontal */
+.block{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Não quebra linha, mas permite que o elemento tenha o espaçamento tanto na horizontal quanto na vertical */
+.inline-block{
+    display:inline-block;
+    margin: 34px;
+    padding: 23px;
+}
