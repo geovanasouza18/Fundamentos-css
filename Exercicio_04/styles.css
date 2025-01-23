@@ -15,3 +15,33 @@ header, footer{
 nav a{
     color: #c72cbf;
 }
+
+/* Seletor de filhos */
+nav > a{
+    display: block;
+    color: #be1717;
+}
+
+/* Seletor de classe */
+.laranja{
+    color: #e66f0e;
+}
+
+/* Seletor de ID */
+#verde{
+    color: #21ad28;
+}
+
+#secao-principal{
+    text-align: center;
+}
+
+#secao-principal > *{
+    margin-top: 10px;
+}
+
+/* Seletor de sequência */
+input + input{
+    color: #21ad28;
+    background-color: #e66f0e;
+}
