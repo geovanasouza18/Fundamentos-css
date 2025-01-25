@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px darkgray ;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.bold {
+    font-weight: 700;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
