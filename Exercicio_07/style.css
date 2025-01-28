@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #636967;
+    color: #f4f4f4;
+    padding: 15px;
+}
+
+.box{
+    border: 1px solid #663c3c;
+    display: inline-block;
+    margin-top: 35px;
+    width: 90px;
+}
+
+.px{
+    height: 10px;
+}
+
+/* root element */
+.rem{
+    height: 3rem;
+}
+/* baseado no elemento atual */
+.em{
+    font-size: 24px;
+    height: 2em;
+}
+
+/* viewport height */
+.vh{
+    height: 30vh;
+    width: 25vw;
+}
+
+/* viewport width */
+.vw{
+    height: 45vw;
+    width: 25vw;
+}
