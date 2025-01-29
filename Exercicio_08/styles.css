@@ -1,0 +1,15 @@
+header{
+    background-color: #b11010;
+    color: #fff;
+    padding: 0.6rem;
+}
+
+.parent{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ebd517;
+}
+
+.child{
+    color: #9928bb;
+    font-size: 2rem;
+}
