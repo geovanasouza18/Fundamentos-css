@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    border-bottom: 1px solid #4b30c4;
+    text-align: center;
+    color: #50467a;
+    padding: 0.6em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.display{
+    margin: 1em;
+    padding: 1.5em;
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Seletor :nth-child */
+li:nth-child(2n){
+    list-style-type: none;
+    color: #4b30c4;
+    font-size: 1.5rem;
+    display: inline-block;
+
+}
+
+li:nth-child(2n+1){
+    list-style-type: none;
+    color: #9683eb;
+    font-size: 1.5rem;
+}
