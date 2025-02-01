@@ -44,3 +44,22 @@ li:nth-child(2n+1){
     color: #9683eb;
     font-size: 1.5rem;
 }
+
+li:hover{
+    cursor: pointer;
+    color: #111279;
+}
+
+input:focus{
+    background-color: #7c66da;
+}
+
+li::before{
+    content: " ✨  ";
+}
+
+li::selection {
+    background-color: yellow;
+    color: black;
+  }
+  
